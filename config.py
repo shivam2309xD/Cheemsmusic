@@ -30,6 +30,7 @@ SUPPORT_CHANNEL = getenv(
 )  # Example:- https://t.me/TheYukki
 SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", None
+)  # Example:- https://t.me/YukkiSupport
     
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
